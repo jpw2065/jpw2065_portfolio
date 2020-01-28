@@ -1,0 +1,13 @@
+:root {
+
+    --primary-color: #1a1a40;
+    --gradient-color-one: #373663;
+    --gradient-color-two: #555185;
+    --secondary-color: #726da8;
+    /* --accent-color: #2727cc; */
+    --accent-color: #262688;
+    --heading-color: #db9411; 
+    --text-color: white;
+    --transparent: #00000000;
+
+}

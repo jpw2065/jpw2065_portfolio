@@ -75,7 +75,7 @@ svg text {
     animation: software_developer 30s infinite;
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
     0% {
         animation-timing-function: linear;
         transform: rotate(0deg);
@@ -109,6 +109,43 @@ svg text {
     100% {
         animation-timing-function: linear;
         transform: rotate(360deg);
+    }
+} */
+
+@keyframes rotate {
+    0% {
+        animation-timing-function: linear;
+        transform: rotate(0deg);
+    }
+
+    23.33% {
+        animation-timing-function: cubic-bezier(.31, -0.31, .71, 1.09);
+        transform: rotate(0deg);
+    }
+
+    33.33% {
+        animation-timing-function: linear;
+        transform: rotate(360deg);
+    }
+
+    56.66% {
+        animation-timing-function: cubic-bezier(.31, -0.31, .71, 1.09);
+        transform: rotate(360deg);
+    }
+
+    66.66% {
+        animation-timing-function: linear;
+        transform: rotate(720deg);
+    }
+
+    89.99% {
+        animation-timing-function: cubic-bezier(.31, -0.31, .71, 1.09);
+        transform: rotate(720deg);
+    }
+
+    100% {
+        animation-timing-function: linear;
+        transform: rotate(1080deg);
     }
 }
 

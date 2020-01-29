@@ -125,3 +125,60 @@
     }
 
 }
+
+@media screen and (max-width: 1000px){
+
+
+    #title h1 {
+
+        margin-left: 0;
+        margin-top: 6vh;
+        text-align: center;
+
+
+    }
+
+    #wheel {
+        top: 46vh;
+        width: 53vw;
+        left: 50%;
+    }
+
+    #bio{
+
+        height: 26vh;
+
+    }
+
+    #gradient_curve_three{
+
+        top: 6vh;
+
+    }
+
+    #project_title {
+
+        width: 50vw;
+        left: 2vw;
+        top: 26vh;
+
+    }
+
+    #bio_text_wrapper {
+
+        width: 70%;
+        margin: auto;
+
+    }
+
+    .project {
+
+        width: 90vw;
+
+    }
+
+    .project_box {
+        width: 80vw;
+    }
+
+}

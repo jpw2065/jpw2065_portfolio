@@ -234,8 +234,8 @@ body.project_open{
 
 .pictures{
 
-    width: 70%;
-    height: auto;
+    max-width: 80%;
+    max-height: 100%;
 
     position: relative;
 
@@ -248,7 +248,8 @@ body.project_open{
 
 .project_pics{
 
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     display: none;
 
     position: relative;
@@ -693,6 +694,18 @@ main{
     vertical-align: middle;
 } */
 
+#bio_text_wrapper p{
+
+    margin-top: 0px;
+
+}
+
+#bio_text_wrapper h2{
+
+    margin-bottom: 0.5em;
+
+}
+
 #project_title{
 
     position: absolute;
@@ -713,6 +726,8 @@ main{
 
     top: 50%;
     left: 49%;
+
+    margin: 0;
 
     transform: translate(-50%, -50%);
 

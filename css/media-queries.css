@@ -197,6 +197,14 @@
 
     }
 
+    .close_project {
+        right: 18.2vw;
+    }
+
+    .icon_wrapper {
+        font-size: 2.0em;
+    }
+
     #gradient_curve_three{
 
         top: 10vh;
@@ -237,6 +245,23 @@
         width: 100vw;
     }
 
+    .project:hover{
+
+        transform: scaleY(1.1);
+    
+    }
+    
+    .project:hover h2::after{
+    
+        width: 80px;
+    
+    }
+    
+    .project:hover h2::before{
+    
+        width: 80px;
+    
+    }
 
 }
 
@@ -249,10 +274,18 @@
 
     }
 
+    .icon_wrapper {
+        font-size: 1.8em;
+    }
+
     #wheel {
         top: 44vh;
         width: 95vw;
         left: 50%;
+    }
+
+    .close_project {
+        right: 17.2vw;
     }
 
     h2{
@@ -323,6 +356,10 @@
         font-size: 0.8em;
     }
 
+    .project_box p {
+        font-size: 0.8em;
+    }
+
     .project_text .p_wrapper {
         font-size: 0.8em;
     }
@@ -335,4 +372,190 @@
         font-size: 0.8em;
     }
 
+    .project:hover h2::after{
+    
+        width: 40px;
+    
+    }
+    
+    .project:hover h2::before{
+    
+        width: 40px;
+    
+    }
+
 }
+
+@media (max-width: 700px) and (min-width: 500px) and (max-height: 1000px) {
+    
+
+    #title h1 {
+        margin-left: 0;
+        margin-top: 2vh;
+        text-align: center;
+        line-height: 15vh;
+    }
+
+    #bio {
+        height: 57vh;
+    }
+
+    #gradient_curve_three {
+        top: 37vh;
+    }
+
+    #project_title {
+        width: 92vw;
+        left: -14vw;
+        top: 54vh;
+    }
+
+
+  }
+
+  @media (max-width: 700px) and (min-width: 500px) and (max-height: 800px) {
+    
+
+    #title h1 {
+        margin-left: 0;
+        margin-top: 0vh;
+        text-align: center;
+        line-height: 15vh;
+    }
+
+    #bio {
+        height: 86vh;
+    }
+
+    #gradient_curve_three {
+        top: 66vh;
+    }
+
+    #project_title {
+        width: 92vw;
+        left: -14vw;
+        top: 79vh;
+    }
+
+
+  }
+
+  @media (max-width: 700px) and (min-width: 500px) and (max-height: 600px) {
+    
+
+    #title h1 {
+        margin-left: 0;
+        margin-top: 0vh;
+        text-align: center;
+        line-height: 22vh;
+    }
+
+    #wheel {
+        top: 59vh;
+        width: 68vw;
+        left: 50%;
+    }
+
+    #bio {
+        height: 167vh;
+    }
+
+    #gradient_curve_three {
+        top: 148vh;
+    }
+
+    #project_title {
+        width: 92vw;
+        left: -14vw;
+        top: 159vh;
+    }
+
+
+  }
+
+  @media (max-width: 500px) and (max-height: 1000px) {
+    
+
+    #title h1 {
+        margin-left: 0;
+        margin-top: 0vh;
+        text-align: center;
+        line-height: 12vh;
+    }
+
+    #bio {
+        height: 35vh;
+    }
+
+    #gradient_curve_three {
+        top: 15vh;
+    }
+
+    #project_title {
+        width: 92vw;
+        left: -14vw;
+        top: 35vh;
+    }
+
+
+  }
+
+  @media (max-width: 500px) and (max-height: 800px) {
+    
+
+    #title h1 {
+        margin-left: 0;
+        margin-top: 0vh;
+        text-align: center;
+        line-height: 14vh;
+    }
+
+    #bio {
+        height: 39vh;
+    }
+
+    #gradient_curve_three {
+        top: 19vh;
+    }
+
+    #project_title {
+        width: 92vw;
+        left: -14vw;
+        top: 40vh;
+    }
+
+
+  }
+
+  @media (max-width: 500px) and (max-height: 600px) {
+    
+
+    #title h1 {
+        margin-left: 0;
+        margin-top: 0vh;
+        text-align: center;
+        line-height: 17vh;
+    }
+
+    #wheel {
+        top: 49vh;
+        width: 95vw;
+        left: 50%;
+    }
+
+    #bio {
+        height: 99vh;
+    }
+
+    #gradient_curve_three {
+        top: 80vh;
+    }
+
+    #project_title {
+        width: 92vw;
+        left: -14vw;
+        top: 99vh;
+    }
+
+
+  }

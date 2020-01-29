@@ -182,3 +182,157 @@
     }
 
 }
+
+@media screen and (max-width: 700px){
+
+    #wheel {
+        top: 40vh;
+        width: 75vw;
+        left: 50%;
+    }
+
+    #bio{
+
+        height: 30vh;
+
+    }
+
+    #gradient_curve_three{
+
+        top: 10vh;
+
+    }
+
+    #project_title {
+        width: 64vw;
+        left: -3vw;
+        top: 31vh;
+    }
+
+    .lines_header:before{
+    
+        height: 2px;
+        width: 60px;
+    
+        margin-right: 10px;
+    
+    }
+
+    .lines_header:after {
+    
+        height: 2px;
+        width: 60px;
+    
+        margin-left: 10px;
+    
+    }
+
+    .project {
+
+        width: 98vw;
+
+    }
+
+    .project_box {
+        width: 100vw;
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+
+    #title h1 {
+
+        font-size: 6em;
+        line-height: 13vh;
+
+    }
+
+    #wheel {
+        top: 44vh;
+        width: 95vw;
+        left: 50%;
+    }
+
+    h2{
+
+        font-size: 1.6em;
+
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    #bio_text_wrapper p {
+        
+        font-size: 0.8em;
+
+    }
+
+    .lines_header:before{
+    
+        height: 2px;
+        width: 40px;
+    
+        margin-right: 10px;
+    
+    }
+
+    .lines_header:after {
+    
+        height: 2px;
+        width: 40px;
+    
+        margin-left: 10px;
+    
+    }
+
+    #bio {
+        height: 41vh;
+    }
+
+    #gradient_curve_three {
+        top: 22vh;
+    }
+
+    #project_title {
+        width: 92vw;
+        left: -14vw;
+        top: 43vh;
+    }
+
+    #floating_wrapper {
+        margin-top: 24vh;
+    }
+
+    .project {
+        border-radius: 12px;
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .image_wrapper img {
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .project_text_wrapper p {
+        margin-top: 5px;
+        font-size: 0.8em;
+    }
+
+    .project_text .p_wrapper {
+        font-size: 0.8em;
+    }
+    
+    .project_box {
+        height: 100vh;
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+
+}

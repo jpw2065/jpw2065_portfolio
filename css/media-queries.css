@@ -478,9 +478,9 @@
 
     #title h1 {
         margin-left: 0;
-        margin-top: 0vh;
+        margin-top: 2vh;
         text-align: center;
-        line-height: 12vh;
+        line-height: 10vh;
     }
 
     #bio {
@@ -497,6 +497,12 @@
         top: 35vh;
     }
 
+    #wheel {
+        top: 29vh;
+        width: 95vw;
+        left: 50%;
+    }
+
 
   }
 
@@ -507,21 +513,21 @@
         margin-left: 0;
         margin-top: 0vh;
         text-align: center;
-        line-height: 14vh;
+        line-height: 10vh;
     }
 
     #bio {
-        height: 39vh;
+        height: 60vh;
     }
 
     #gradient_curve_three {
-        top: 19vh;
+        top: 40vh;
     }
 
     #project_title {
         width: 92vw;
         left: -14vw;
-        top: 40vh;
+        top: 56vh;
     }
 
 
@@ -544,17 +550,17 @@
     }
 
     #bio {
-        height: 99vh;
+        height: 120vh;
     }
 
     #gradient_curve_three {
-        top: 80vh;
+        top: 101vh;
     }
 
     #project_title {
         width: 92vw;
         left: -14vw;
-        top: 99vh;
+        top: 116vh;
     }
 
 

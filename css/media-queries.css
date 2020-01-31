@@ -81,10 +81,8 @@
 
     }
 
-    #gradient_curve_three{
-
-        height: 53vh;
-
+    #gradient_curve_three {
+        top: 11vh;
     }
 
     #project_title{
@@ -104,7 +102,7 @@
     }
 
     #gradient_curve_three {
-        height: 92vh;
+        top: 35vh;
     }
 
 
@@ -123,9 +121,8 @@
     }
 
     #gradient_curve_three {
-        height: 154vh;
+        top: 75vh;
     }
-
 
     #project_title {
         top: calc(102.5vh + -8vw);
@@ -218,7 +215,7 @@
     }
 
     #gradient_curve_three {
-        height: 58vh;
+        top: 14vh;
     }
 
 
@@ -241,9 +238,8 @@
     }
 
     #gradient_curve_three {
-        height: 101vh;
+        top: 42vh;
     }
-
 
     #project_title {
         top: calc(67.5vh + -8vw);
@@ -379,13 +375,13 @@
     }
 
     #gradient_curve_three {
-        height: 58vh;
+        top: 14vh;
     }
 
 
     #project_title {
         top: calc(37.5vh + -8vw);
-        width: 90vw;
+        width: 121vw;
     }
 
     #floating_wrapper {
@@ -405,9 +401,8 @@
     }
 
     #gradient_curve_three {
-        height: 101vh;
+        top: 41vh;
     }
-
 
     #project_title {
         top: calc(64.5vh + -8vw);

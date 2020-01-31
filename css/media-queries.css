@@ -1,95 +1,5 @@
-
-
-@media screen and (max-height: 1000px){
-
-    #title h1{
-
-        line-height: 16vh;
-        margin-top: 15vh;
-
-    }
-
-    #wheel{
-
-        top: 10vh;
-        width: 28vw;
-        height: auto;
-
-        transform: translateX(-50%)
-        
-    }
-    
-
-}
-
-@media screen and (max-height: 765px){
-
-    #title h1{
-
-        margin-top: 12vh;
-        font-size: 8em;
-
-    }
-
-    footer p{
-
-        margin-top: 0;
-
-    }
-
-    #wheel{
-
-        top: 7vh;
-        width: 26vw;
-        height: auto;
-
-        transform: translateX(-50%)
-        
-    }
-
-    #floating_wrapper{
-
-
-        margin-top: 30vh;
-
-    }
-
-    .project{
-
-        height: 15vh;
-
-    }
-
-}
-
-@media screen and (max-width: 1700px){
-
-    .project_text .p_wrapper{
-
-        margin-top: 1vh;
-    
-    }
-
-}
-
 @media screen and (max-width: 1600px){
 
-
-    #project_title{
-
-        width: 38vw;
-        left: 7vw;
-
-    }
-
-
-    #wheel{
-
-        top: 13vh;
-        width: 40vw;
-        left: 75%;
-        
-    }
 
     .project_box{
 
@@ -102,22 +12,6 @@
 @media screen and (max-width: 1400px){
 
 
-    #project_title{
-
-        width: 50vw;
-        left: 3vw;
-
-    }
-
-
-    #wheel{
-
-        top: 13vh;
-        width: 40vw;
-        left: 75%;
-        
-    }
-
     .project_box{
 
         width: 55vw;
@@ -126,43 +20,43 @@
 
 }
 
-@media screen and (max-width: 1000px){
-
+@media screen and (max-width: 1200px){
 
     #title h1 {
 
         margin-left: 0;
-        margin-top: 6vh;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
         text-align: center;
 
 
     }
 
     #wheel {
-        top: 46vh;
-        width: 53vw;
-        left: 50%;
+        /* top: calc(5vh + 48em);
+        left: 50%; */
+        position: relative;
+        margin: auto;
+
+        display: block;
+
+        transform: none;
+
+        left: 0;
+        top: 0;
+        
+ 
     }
 
-    #bio{
+}
 
-        height: 26vh;
+@media screen and (max-width: 992px){
 
+
+    body.project_open {
+        padding-right: 0px;
     }
 
-    #gradient_curve_three{
-
-        top: 6vh;
-
-    }
-
-    #project_title {
-
-        width: 50vw;
-        left: 2vw;
-        top: 26vh;
-
-    }
 
     #bio_text_wrapper {
 
@@ -181,21 +75,71 @@
         width: 80vw;
     }
 
-}
-
-@media screen and (max-width: 700px){
-
-    #wheel {
-        top: 40vh;
-        width: 75vw;
-        left: 50%;
-    }
-
     #bio{
 
-        height: 30vh;
+        height: 26vh;
 
     }
+
+    #gradient_curve_three{
+
+        height: 53vh;
+
+    }
+
+    #project_title{
+
+        top: calc(35.5vh + -6vw);
+        width: 58vw;
+
+    }
+
+}
+
+@media (max-width: 992px) and (min-width: 769px) and (max-height: 992px) {
+    
+
+    #bio {
+        height: 55vh;
+    }
+
+    #gradient_curve_three {
+        height: 92vh;
+    }
+
+
+    #project_title {
+        top: calc(62.5vh + -8vw);
+        width: 70vw;
+    }
+
+}
+
+@media (max-width: 992px) and (min-width: 769px) and (max-height: 768px) {
+    
+
+    #bio {
+        height: 93vh;
+    }
+
+    #gradient_curve_three {
+        height: 154vh;
+    }
+
+
+    #project_title {
+        top: calc(102.5vh + -8vw);
+        width: 70vw;
+    }
+
+    #floating_wrapper {
+        margin-top: 39vh;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
 
     .close_project {
         right: 18.2vw;
@@ -203,18 +147,6 @@
 
     .icon_wrapper {
         font-size: 2.0em;
-    }
-
-    #gradient_curve_three{
-
-        top: 10vh;
-
-    }
-
-    #project_title {
-        width: 64vw;
-        left: -3vw;
-        top: 31vh;
     }
 
     .lines_header:before{
@@ -263,14 +195,74 @@
     
     }
 
+    #wheel{
+
+        width: calc(50vh + -8vw);
+
+    }
+
+    #project_title {
+
+        top: calc(34.5vh + -6vw);
+        width: 74vw;
+
+    }
+
 }
 
-@media screen and (max-width: 500px){
+@media (max-width: 768px) and (min-width: 577px) and (max-height: 992px) {
+    
+
+    #bio {
+        height: 20vh;
+    }
+
+    #gradient_curve_three {
+        height: 58vh;
+    }
+
+
+    #project_title {
+        top: calc(39.5vh + -8vw);
+        width: 70vw;
+    }
+
+    #floating_wrapper {
+        margin-top: 36vh;
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 577px) and (max-height: 768px) {
+    
+
+    #bio {
+        height: 60vh;
+    }
+
+    #gradient_curve_three {
+        height: 101vh;
+    }
+
+
+    #project_title {
+        top: calc(67.5vh + -8vw);
+        width: 70vw;
+    }
+
+    #floating_wrapper {
+        margin-top: 39vh;
+    }
+
+}
+
+
+
+@media screen and (max-width: 576px){
 
     #title h1 {
 
         font-size: 6em;
-        line-height: 13vh;
 
     }
 
@@ -278,11 +270,6 @@
         font-size: 1.8em;
     }
 
-    #wheel {
-        top: 44vh;
-        width: 95vw;
-        left: 50%;
-    }
 
     .close_project {
         right: 17.2vw;
@@ -322,19 +309,6 @@
     
     }
 
-    #bio {
-        height: 41vh;
-    }
-
-    #gradient_curve_three {
-        top: 22vh;
-    }
-
-    #project_title {
-        width: 92vw;
-        left: -14vw;
-        top: 43vh;
-    }
 
     #floating_wrapper {
         margin-top: 24vh;
@@ -343,7 +317,7 @@
     .project {
         border-radius: 12px;
         width: 100vw;
-        height: 20vh;
+        height: 15vh;
     }
 
     .image_wrapper img {
@@ -384,136 +358,46 @@
     
     }
 
+    #wheel {
+        width: calc(20vh + 20vw);
+    }
+
+    #project_title {
+        top: calc(32.5vh + -6vw);
+        width: 104vw;
+    }
+
 }
 
-@media (max-width: 700px) and (min-width: 500px) and (max-height: 1000px) {
+
+
+@media (max-width: 576px) and (min-width: 300px) and (max-height: 992px) {
     
 
-    #title h1 {
-        margin-left: 0;
-        margin-top: 2vh;
-        text-align: center;
-        line-height: 15vh;
-    }
-
     #bio {
-        height: 57vh;
+        height: 20vh;
     }
 
     #gradient_curve_three {
-        top: 37vh;
+        height: 58vh;
     }
+
 
     #project_title {
-        width: 92vw;
-        left: -14vw;
-        top: 54vh;
+        top: calc(37.5vh + -8vw);
+        width: 90vw;
     }
 
+    #floating_wrapper {
+        margin-top: 36vh;
+    }
 
-  }
+}
 
-  @media (max-width: 700px) and (min-width: 500px) and (max-height: 800px) {
+@media (max-width: 576px) and (min-width: 300px) and (max-height: 768px) {
     
-
-    #title h1 {
-        margin-left: 0;
-        margin-top: 0vh;
-        text-align: center;
-        line-height: 15vh;
-    }
-
-    #bio {
-        height: 86vh;
-    }
-
-    #gradient_curve_three {
-        top: 66vh;
-    }
-
-    #project_title {
-        width: 92vw;
-        left: -14vw;
-        top: 79vh;
-    }
-
-
-  }
-
-  @media (max-width: 700px) and (min-width: 500px) and (max-height: 600px) {
-    
-
-    #title h1 {
-        margin-left: 0;
-        margin-top: 0vh;
-        text-align: center;
-        line-height: 22vh;
-    }
-
     #wheel {
-        top: 59vh;
-        width: 68vw;
-        left: 50%;
-    }
-
-    #bio {
-        height: 167vh;
-    }
-
-    #gradient_curve_three {
-        top: 148vh;
-    }
-
-    #project_title {
-        width: 92vw;
-        left: -14vw;
-        top: 159vh;
-    }
-
-
-  }
-
-  @media (max-width: 500px) and (max-height: 1000px) {
-    
-
-    #title h1 {
-        margin-left: 0;
-        margin-top: 2vh;
-        text-align: center;
-        line-height: 10vh;
-    }
-
-    #bio {
-        height: 35vh;
-    }
-
-    #gradient_curve_three {
-        top: 15vh;
-    }
-
-    #project_title {
-        width: 92vw;
-        left: -14vw;
-        top: 35vh;
-    }
-
-    #wheel {
-        top: 29vh;
-        width: 95vw;
-        left: 50%;
-    }
-
-
-  }
-
-  @media (max-width: 500px) and (max-height: 800px) {
-    
-
-    #title h1 {
-        margin-left: 0;
-        margin-top: 0vh;
-        text-align: center;
-        line-height: 10vh;
+        width: calc(33vh + 20vw);
     }
 
     #bio {
@@ -521,47 +405,17 @@
     }
 
     #gradient_curve_three {
-        top: 40vh;
+        height: 101vh;
     }
+
 
     #project_title {
-        width: 92vw;
-        left: -14vw;
-        top: 56vh;
+        top: calc(64.5vh + -8vw);
+        width: 102vw;
     }
 
-
-  }
-
-  @media (max-width: 500px) and (max-height: 600px) {
-    
-
-    #title h1 {
-        margin-left: 0;
-        margin-top: 0vh;
-        text-align: center;
-        line-height: 17vh;
+    #floating_wrapper {
+        margin-top: 39vh;
     }
 
-    #wheel {
-        top: 49vh;
-        width: 95vw;
-        left: 50%;
-    }
-
-    #bio {
-        height: 120vh;
-    }
-
-    #gradient_curve_three {
-        top: 101vh;
-    }
-
-    #project_title {
-        width: 92vw;
-        left: -14vw;
-        top: 116vh;
-    }
-
-
-  }
+}

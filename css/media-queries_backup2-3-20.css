@@ -64,7 +64,8 @@
     }
 
     #wheel {
-        
+        /* top: calc(5vh + 48em);
+        left: 50%; */
         position: relative;
         margin: auto;
 
@@ -125,6 +126,10 @@
         height: 26vh;
 
     }
+/* 
+    #gradient_curve_three {
+        top: 11vh;
+    }*/
 
     #project_title{
 
@@ -140,6 +145,44 @@
     }
 
 }
+/* 
+@media (max-width: 992px) and (min-width: 769px) and (max-height: 992px) {
+    
+
+    #bio {
+        height: 55vh;
+    }
+
+    #gradient_curve_three {
+        top: 35vh;
+    }
+
+
+    #project_title {
+        top: calc(62.5vh + -8vw);
+        width: 70vw;
+    }
+
+}
+
+@media (max-width: 992px) and (min-width: 769px) and (max-height: 768px) {
+    
+
+    #bio {
+        height: 93vh;
+    }
+
+    #gradient_curve_three {
+        top: 75vh;
+    }
+
+    #project_title {
+        top: calc(102.5vh + -8vw);
+        width: 70vw;
+    }
+
+
+} */
 
 @media screen and (max-width: 768px){
 
@@ -198,6 +241,16 @@
     
     }
 
+    /* #wheel{
+
+        width: calc(50vh + -8vw);
+
+    } */
+
+    /* #gradient_curve_three {
+        top: 11vh;
+    }*/
+
     #project_title {
 
         width: 74vw;
@@ -220,6 +273,47 @@
 
 
 }
+
+/* @media (max-width: 768px) and (min-width: 577px) and (max-height: 992px) {
+    
+
+    #bio {
+        height: 20vh;
+    }
+
+    #gradient_curve_three {
+        top: 14vh;
+    }
+
+
+    #project_title {
+        top: calc(39.5vh + -8vw);
+        width: 70vw;
+    }
+
+
+}
+
+@media (max-width: 768px) and (min-width: 577px) and (max-height: 768px) {
+    
+
+    #bio {
+        height: 60vh;
+    }
+
+    #gradient_curve_three {
+        top: 42vh;
+    }
+
+    #project_title {
+        top: calc(67.5vh + -8vw);
+        width: 70vw;
+    }
+
+
+} */
+
+
 
 @media screen and (max-width: 576px){
 
@@ -303,6 +397,14 @@
     
     }
 
+    /* #gradient_curve_three {
+        top: 11vh;
+    } */
+
+    /* #wheel {
+        width: calc(20vh + 20vw);
+    } */
+
     #project_title {
         
         top: calc(100% - 39%);
@@ -321,8 +423,50 @@
         top: 14em;
         height: 15vh;
         min-height: 8rem;
-
+        
     }
 
 }
 
+/* 
+
+@media (max-width: 576px) and (min-width: 300px) and (max-height: 992px) {
+    
+
+    #bio {
+        height: 20vh;
+    }
+
+    #gradient_curve_three {
+        top: 14vh;
+    }
+
+
+    #project_title {
+        top: calc(37.5vh + -8vw);
+        width: 121vw;
+    }
+
+}
+
+@media (max-width: 576px) and (min-width: 300px) and (max-height: 768px) {
+    
+    #wheel {
+        width: calc(33vh + 20vw);
+    }
+
+    #bio {
+        height: 60vh;
+    }
+
+    #gradient_curve_three {
+        top: 41vh;
+    }
+
+    #project_title {
+        top: calc(64.5vh + -8vw);
+        width: 102vw;
+    }
+
+
+} */

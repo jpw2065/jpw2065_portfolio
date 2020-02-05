@@ -1,5 +1,8 @@
 @media screen and (max-width: 1600px){
 
+    .icon_wrapper {
+        font-size: 2.8em;
+    }
 
     .project_box{
 
@@ -26,10 +29,19 @@
 
     }
 
+    .close_project{
+
+        right: 8.7vw;
+
+    }
+
 }
 
 @media screen and (max-width: 1400px){
 
+    .icon_wrapper {
+        font-size: 2.6em;
+    }
 
     .project_box{
 
@@ -49,15 +61,25 @@
 
     }
 
+    .close_project{
+
+        right: 10.5vw;
+
+    }
+
 }
 
 @media screen and (max-width: 1200px){
+
+    .icon_wrapper {
+        font-size: 2.4em;
+    }
 
     #title h1 {
 
         margin-left: 0;
         margin-top: 4vh;
-        margin-bottom: 4vh;
+        margin-bottom: 6vh;
         text-align: center;
 
 
@@ -86,7 +108,7 @@
 
     #body_wrapper{
 
-        grid-template-rows: minmax(64rem, 100vh) auto 12vh;
+        grid-template-rows: minmax(67rem, 100vh) auto 12vh;
 
     }
 
@@ -94,6 +116,9 @@
 
 @media screen and (max-width: 992px){
 
+    .icon_wrapper {
+        font-size: 2.2em;
+    }
 
     body.project_open {
         padding-right: 0px;
@@ -139,13 +164,17 @@
 
     }
 
+    .close_project {
+        right: 16.0vw;
+    }
+
 }
 
 @media screen and (max-width: 768px){
 
 
     .close_project {
-        right: 18.2vw;
+        right: 18.7vw;
     }
 
     .icon_wrapper {
@@ -206,7 +235,7 @@
 
     #body_wrapper{
 
-        grid-template-rows: minmax(64rem, 100vh) auto 12vh;
+        grid-template-rows: minmax(67rem, 100vh) auto 12vh;
 
     }
 
@@ -262,7 +291,7 @@
     .project {
         border-radius: 12px;
         width: 100vw;
-        height: 15vh;
+        height: 13vh;
     }
 
     .image_wrapper img {
@@ -312,7 +341,7 @@
 
     #body_wrapper{
 
-        grid-template-rows: minmax(55rem, 100vh) auto 12vh;
+        grid-template-rows: minmax(58rem, 100vh) auto 12vh;
 
     }
 

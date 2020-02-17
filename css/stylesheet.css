@@ -396,7 +396,7 @@ h3{
 #body_wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(60rem, 100vh) auto 12vh;
+    grid-template-rows: minmax(60rem, 100vh) auto 16vh;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
@@ -749,7 +749,7 @@ main{
     position: absolute;
 
     /* top: 17vh; */
-    top: calc(100% - 50%);
+    top: calc(100% - 51%);
     left: 26vw;
 
     width: 40vw;

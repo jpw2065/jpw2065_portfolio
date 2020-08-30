@@ -83,7 +83,7 @@ class ImageCarnival{
 
 }
 
-let project_id_list = ["project_text_one", "project_text_two", "project_text_three", "project_text_four", "project_text_five"];
+let project_id_list = ["project_text_one", "project_text_two", "project_text_three", "project_text_four", "project_text_five", "project_text_six"];
 let image_carnival_list = [];
 let carnival_index = 0;
 
@@ -112,6 +112,10 @@ function clickFour(){
 
 function clickFive(){
     openProject(project_id_list[4]);
+}
+
+function clickSix(){
+    openProject(project_id_list[5]);
 }
 
 // Opening and Closing the Modal Box
@@ -210,6 +214,7 @@ function onWindowLoad(){
     let project_three = document.querySelector("#project_three");
     let project_four = document.querySelector("#project_four");
     let project_five = document.querySelector("#project_five");
+    let project_six = document.querySelector("#project_six");
     let close_project_button = document.querySelector(".close_project");
     
 
@@ -218,6 +223,7 @@ function onWindowLoad(){
     project_three.onclick = clickThree;
     project_four.onclick = clickFour;
     project_five.onclick = clickFive;
+    project_six.onclick = clickSix;
     close_project_button.onclick = closeProject;
 
     image_carnival_list = [new ImageCarnival("image_carnival_one"), new ImageCarnival("image_carnival_two"), new ImageCarnival("image_carnival_three")];

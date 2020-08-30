@@ -23,24 +23,24 @@ svg text {
 .circle_top {
 
     transform: rotate(0deg);
-    animation: circle_top_animation 30s infinite;
-    animation-delay: -27s;
+    animation: circle_top_animation 25s infinite;
+    animation-delay: -15s;
 
 }
 
 .circle_left {
 
     transform: rotate(0deg);
-    animation: circle_left_animation 30s infinite;
-    animation-delay: -27s;
+    animation: circle_left_animation 25s infinite;
+    animation-delay: -15s;
 
 }
 
 .circle_right {
 
     transform: rotate(0deg);
-    animation: circle_right_animation 30s infinite;
-    animation-delay: -27s;
+    animation: circle_right_animation 25s infinite;
+    animation-delay: -15s;
 
 }
 
@@ -48,8 +48,8 @@ svg text {
 
     transform: rotate(0deg);
     transform-origin: 50px 72px;
-    animation: rotate 30s infinite;
-    animation-delay: -27s;
+    animation: rotate 25s infinite;
+    animation-delay: -15s;
 
 }
 
@@ -64,22 +64,22 @@ svg text {
 .speech_bubble_game_developer {
 
     opacity: 0;
-    animation: game_developer 30s infinite;
-    animation-delay: -27s;
+    animation: game_developer 25s infinite;
+    animation-delay: -15s;
 }
 
 .speech_bubble_web_developer {
 
     opacity: 0;
-    animation: web_developer 30s infinite;
-    animation-delay: -27s;
+    animation: web_developer 25s infinite;
+    animation-delay: -15s;
 }
 
 .speech_bubble_software_developer {
 
     opacity: 0;
-    animation: software_developer 30s infinite;
-    animation-delay: -27s;
+    animation: software_developer 25s infinite;
+    animation-delay: -15s;
 }
 
 /* @keyframes rotate {

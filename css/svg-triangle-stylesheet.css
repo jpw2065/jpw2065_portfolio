@@ -1,24 +1,7 @@
-
-/* 
-@font-face {
-    font-family: FontAwesome;
-    src: url('./fonts/fa-regular-400.woff2') format('woff2'),
-        url('./fonts/fa-regular-400.woff') format('woff');
-} */
-
 svg text {
     font-family: FontAwesome;
     font-size: 0.7em;
 }
-
-/* 
-.translate_circle {
-
-    transform: rotate(0deg);
-    transform-origin: -10px -10px;
-    animation: moveInCircle 30s infinite;
-
-} */
 
 .circle_top {
 
@@ -82,42 +65,6 @@ svg text {
     animation-delay: -15s;
 }
 
-/* @keyframes rotate {
-    0% {
-        animation-timing-function: linear;
-        transform: rotate(0deg);
-    }
-
-    23.33% {
-        animation-timing-function: cubic-bezier(.31, -0.31, .71, 1.09);
-        transform: rotate(0deg);
-    }
-
-    33.33% {
-        animation-timing-function: linear;
-        transform: rotate(120deg);
-    }
-
-    56.66% {
-        animation-timing-function: cubic-bezier(.31, -0.31, .71, 1.09);
-        transform: rotate(120deg);
-    }
-
-    66.66% {
-        animation-timing-function: linear;
-        transform: rotate(240deg);
-    }
-
-    89.99% {
-        animation-timing-function: cubic-bezier(.31, -0.31, .71, 1.09);
-        transform: rotate(240deg);
-    }
-
-    100% {
-        animation-timing-function: linear;
-        transform: rotate(360deg);
-    }
-} */
 
 @keyframes rotate {
     0% {

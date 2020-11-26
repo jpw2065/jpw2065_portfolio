@@ -283,7 +283,6 @@
 
     }
 
-
     #floating_wrapper {
         margin-top: 24vh;
     }
@@ -309,6 +308,10 @@
     }
 
     .project_text .p_wrapper {
+        font-size: 0.8em;
+    }
+
+    .project_box ul {
         font-size: 0.8em;
     }
     

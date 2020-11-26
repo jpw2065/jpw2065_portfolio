@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="./css/stylesheet.css">
     <link rel="stylesheet" href="./css/svg-triangle-stylesheet.css">
     <link rel="stylesheet" href="./css/media-queries.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet"> -->
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet">
@@ -47,19 +46,97 @@
 
             <i class="far fa-times-circle close_project"></i>
 
-            <div id="project_text_six" class="project_text display_block">
+            <div id="project_text_seven" class="project_text display_grid display_none">
 
-                <h2 class="lines_header">CREDIT</h2>
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Audio Visualizer</h2>
+                    <span class="timeline_span"><i>(2020 October)</i></span>
+                </div>
+
+                <div id="image_carnival_four" class="image_carnaval">
+                    <div class="pictures">
+                        <img src="./images/audio_visualizer/pic_one.png" class="project_pics">
+                        <img src="./images/audio_visualizer/pic_two.png" class="project_pics">
+                        <img src="./images/audio_visualizer/pic_three.png" class="project_pics">
+                        <img src="./images/audio_visualizer/pic_four.png" class="project_pics">
+                        <a class="scroll_button next" onclick="increment(3, 1)"><i class="fas fa-chevron-right"></i></a>
+                        <a class="scroll_button prev" onclick="increment(3, -1)"><i class="fas fa-chevron-left"></i></a>
+                    </div>
+
+                </div>
 
                 <div class="p_wrapper">
-                    <p>CREDIT, otherwise, known as Commercial Real Estate Deal Information Tracker is a web application that I work on for the client Largo Capital Inc. The program is the method of choice for Largo to keep track of real estate deal information. The web application is programmed entirely in Laravel utilizing PHP as the backend language. We used a PostgreSQL relational database to function as the application database on the backend. The structure of the web application utilizes an MVC (Model, View, Controller) framework. One important aspect I worked on while developing CREDIT was enhancing the GUI to allow for better user experience, utilizing Bootstrap 4, CSS, HTML, and TWIG.  I frequently worked with Largo to translate there needs for a program into the actual functionality the application contains. While developing CREDIT, I was on a development team that utilized an agile workflow. This entailed meeting for daily stand up calls and participating in sprints. Overall this application taught me much about creating a variety of different applications. More importantly, it taught me how to take business needs and finding a way to utilize technology to satisfy the needs of the client.</p>
+                    <p>This is the project that I am most proud of at the current moment. The reason being is the complexity this project took to undertake and the speed at which I was able to handle such complexity (about one week). This project is two-fold, the first being an audio visualizer, and the second being computer vision gesture controls. The design of the audio visualizer was crafted to give an elegant look to the interface. By allowing the user to hide elements of the user interface it created a clean look to the website. The actual audio visualizer portion was programmed using Javascript, HTML, and CSS. I then used a Tensorflow trained model to track the hands of the user by performing a linear regression on a series of points. Based on the slope of these points I was able to determine which direction the user swiped their hand. I ended up training my model with the <a href="http://vision.soic.indiana.edu/projects/egohands/" target="_blank">EgoHands</a> dataset and utilizing the <a href="https://www.tensorflow.org/api_docs/python/tf" target="_blank">Tensorflow</a> python library. Overall, this was my first time doing machine learning, and I learned a whole host of new concepts and topics. I always love going into a new area when doing a project, and this project is a prime example of that. Eventually, I plan on making the hand tracking more efficient with improved data set and more efficient models. I am fascinated by different ways of interacting with a computer, and I see great potential in gesture controls once the field of machine learning expands!</p>
+                </div>
+
+                <h3 class="lines_header">Check it Out</h3>
+
+                <div class="download_links">
+                    <a href="https://people.rit.edu/jpw2065/330/projects/audio-visualizer/" target="_blank"><i
+                            class="fas fa-external-link-alt"></i></a>
                 </div>
 
             </div>
 
-            <div id="project_text_one" class="project_text display_block">
+            <div id="project_text_eight" class="project_text display_grid display_none">
 
-                <h2 class="lines_header">Artifact</h2>
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Evolution Simulator</h2>
+                    <span class="timeline_span"><i>(2020 Septemmber)</i></span>
+                </div>
+
+                <div id="image_carnival_five" class="image_carnaval">
+                    <div class="pictures">
+                        <img src="./images/natural_selection/pic_one.png" class="project_pics">
+                        <img src="./images/natural_selection/pic_two.png" class="project_pics">
+                        <img src="./images/natural_selection/pic_three.png" class="project_pics">
+                        <a class="scroll_button next" onclick="increment(4, 1)"><i class="fas fa-chevron-right"></i></a>
+                        <a class="scroll_button prev" onclick="increment(4, -1)"><i class="fas fa-chevron-left"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="p_wrapper">
+                    <p>The goal I had in this project was to give a user the ability to interact with a simulation to change its outcome. I landed on creating an evolution simulator that gives the user controls to affect the creatures that are evolved. It works through the process of Q-Learning, basically giving these creatures reinforcement in terms of gaining the most amount of energy as possible, which acts as a way to maximize the creature's reward. The outcomes can be quite interesting. Give it a try!</p>
+                </div>
+
+                <h3 class="lines_header">Check it Out</h3>
+
+                <div class="download_links">
+                    <a href="https://people.rit.edu/jpw2065/330/projects/natural-selection/" target="_blank"><i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+
+            <div id="project_text_six" class="project_text display_grid_two display_none">
+
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">CREDIT</h2>
+                    <span class="timeline_span"><i>(2020 - Current)</i></span>
+                </div>
+
+                <div class="p_wrapper">
+                    <p>CREDIT otherwise known as Commercial Real Estate Deal Information Tracker is a web application that I currently work on for the client Largo Capital Inc. CREDIT is the method of choice for Largo to keep track of real estate deal information. Some highlights during my time at Largo included:</p>
+                    <ul>
+                        <li>Working alongside the business to turn their business needs into technical solutions.</li>
+                        <li>Creating a white label site to expand our application's customer base.</li>
+                        <li>Participating in daily standup meetings in an agile workflow environment.</li>
+                        <li>Creating a 6-month technical roadmap for the direction that Largo wants to take CREDIT in.</li>
+                        <li>Modernized the website interface to optimize the user experience using Bootstrap 4, HTML, CSS, and TWIG.</li>
+                        <li>Creating a permissions system that regulated which users had access to our application. Utilized RBAC permission controls.</li>
+                    </ul>
+                    <p>The application was developed using Laravel (PHP) and is structured in an MVC framework. We use PostgreSQL relational database to store data in the backend. Overall developing CREDIT taught me the intricacies of developing a web application for a larger customer base. Most importantly, it taught me how to take business needs and finding a way to utilize technology to satisfy the needs of the client.</p>
+                </div>
+
+            </div>
+
+            <div id="project_text_one" class="project_text display_grid display_none">
+
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Artifact</h2>
+                    <span class="timeline_span"><i>(2016 - 2018)</i></span>
+                </div>
 
                 <div id="image_carnival_one" class="image_carnaval">
                     <div class="pictures">
@@ -78,7 +155,7 @@
                 </div>
 
                 <div class="p_wrapper">
-                    <p>To this date, this has been the project that I have put the most time and effort into. I started out knowing little about game development, and programming. Over my last two years in high school, I was able to develop Artifact from scratch. It was programmed using Java, and the graphics were hand made by me. I also had to develop a custom rendering system to display on Javas canvas system. Had to develope equations to simulate physics that occur in real life. This is one of the projects I am most proud of!</p>
+                    <p>To this date, this has been the project that I have put the most time and effort into. I started out knowing little about game development, and programming. During my last two years of high school, I was able to develop Artifact from scratch. It was programmed using Java, and the graphics were hand made by me. I also had to develop a custom rendering system to display on Javas's canvas system. Additionally, I developed custom equations to simulate physics for the player. I also created a custom level editor to increase the speed at which I could develop levels for the game. Overall, I immensely enjoyed creating this project!</p>
                 </div>
 
                 <h3 class="lines_header">Download</h3>
@@ -89,9 +166,12 @@
 
             </div>
 
-            <div id="project_text_two" class="project_text display_none">
+            <div id="project_text_two" class="project_text display_grid display_none">
 
-                <h2 class="lines_header">Cave Game</h2>
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Cave Game</h2>
+                    <span class="timeline_span"><i>(2017 May - June)</i></span>
+                </div>
 
                 <div id="image_carnival_three" class="image_carnaval">
                     <div class="pictures">
@@ -121,9 +201,12 @@
 
             </div>
 
-            <div id="project_text_three" class="project_text display_none">
+            <div id="project_text_three" class="project_text display_grid display_none">
 
-                <h2 class="lines_header">Simple 3D</h2>
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Simple 3D</h2>
+                    <span class="timeline_span"><i>(2018 May - June)</i></span>
+                </div>
 
                 <div id="image_carnival_two" class="image_carnaval">
                     <div class="pictures">
@@ -141,7 +224,7 @@
                 </div>
 
                 <div class="p_wrapper">
-                    <p>This program is made for users who want a simple 3D modeling program and not yet trained on complicated 3D modeling software. It is the first application I created that used 3D graphics and the mathematics of 3D graphics. To complete this project I studied and applied the mathematics of 3D graphics. It is programmed in Java and rendered using Java's Swing library.</p>
+                    <p>This program was made for people who want a simple 3D modeling program and are not yet trained on complicated 3D modeling software. It is the first application I created that used 3D graphics and the mathematics of 3D graphics. To complete this project I studied and applied the mathematics of 3D graphics. I developed a custom rendering method that converted 3D coordinates to a 2D coordinate system then rendered those 2D coordinates on a Java Swing Canvas. It is programmed in Java and rendered using Java's Swing library.</p>
                 </div>
 
 
@@ -154,21 +237,34 @@
 
             </div>
 
-            <div id="project_text_four" class="project_text display_none">
+            <div id="project_text_four" class="project_text display_grid_two display_none">
 
-                <h2 class="lines_header">Pricetool</h2>
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Pricetool</h2>
+                    <span class="timeline_span"><i>(2018 - 2020)</i></span>
+                </div>
 
                 <div class="p_wrapper">
-                    <p>The Pricetool is a project I have worked on for about two years. It was for a client looking to create a media and inventory tracking software so we could optimize our product flow. This project involves heavy use of Ruby, JRuby, MySQL, JS, HTML, CSS, and Unix systems.</p>
+                    <p>The Pricetool is a web application that I developed for my client YourOnlineMarketplace. The company needed a method for keeping track of inventory, and also the products we sold on our Amazon store. I was able to help develop a variety of different tools for the business to use, such as an inventory scanning system, data visualization tools, and also product tracking tools. Some highlights during my work at YourOnlineMarketPlace include:</p>
+                    <ul>
+                        <li>Developing an inventory scanning system that updated the number of products stored in the warehouse.</li>
+                        <li>Utilizing Datatables to create a front end display for data that was stored in our relational database.</li>
+                        <li>Developing an Amazon Products Table which used the Amazon MWS API to pull down information about the products we sold on our store.</li>
+                        <li>Meeting weekly with the client to understand their needs.</li>
+                    </ul>
+                    <p>The application was developed using Ruby, Sinatra, and MySQL. We used HTML, Javascript, and CSS to style the front end aspect of the application. Overall, the work I did for OnlineMarketPlace taught me a variety of skills for developing Web Applications since this was my first position as a Full Stack Developer.</p>
                 </div>
 
             </div>
 
-            <div id="project_text_five" class="project_text display_none">
+            <div id="project_text_five" class="project_text display_grid display_none">
 
-                <h2 class="lines_header">Students for Action</h2>
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Students for Action</h2>
+                    <span class="timeline_span"><i>(2018 March)</i></span>
+                </div>
 
-                <div id="image_carnival_five" class="image_carnaval">
+                <div class="image_carnaval">
                     <div class="pictures">
                         <img src="./images/students_for_action/pic_one.png" class="project_pics"
                             style="display: block;">
@@ -177,7 +273,7 @@
                 </div>
 
                 <div class="p_wrapper">
-                    <p>Students for Action is a website designed to help students get more involved in government and local politics. Although I did not make the website I did help develop their mapping systems. The site includes a map that shows the time and location of posted events. The map uses MySQL along with HTML, and Javascript for a data entry page.</p>
+                    <p>Students for Action is a website designed to help students get more involved in government and local politics. Although I did not make the website I helped develop their mapping systems. The site includes a map that shows the time and location of posted events. The map uses the google map API, and a MySQL database to store the information. I also developed a sister site with HTML, and Javascript to act as a data entry page.</p>
                 </div>
 
 
@@ -198,21 +294,6 @@
 
 
     <div id="body_wrapper">
-        <!-- <nav>
-
-            <div id="nav_wrapper">
-                <div id="link_wrapper">
-                    <a>Bio</a>
-                    <a>Projects</a>
-                    <a>Contact</a>
-                </div>
-            </div>
-
-            <i class="fas fa-chevron-down"></i>
-
-        </nav> -->
-
-
 
         <section id="title">
 
@@ -224,7 +305,6 @@
             </div>
 
             <h1>Jack<br />Watson</h1>
-            <!-- <h2>Game Developer</h2> -->
 
             <svg version='1.1' baseProfile='full' preserveAspectRatio='xMidYMid meet' viewBox='0 0 100 130'
                 xmlns='http://www.w3.org/2000/svg' id="wheel">
@@ -381,9 +461,6 @@
 
         </section>
 
-
-
-
         <main>
 
             <div id="bio">
@@ -405,8 +482,6 @@
 
                     </span>
 
-
-
                     <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 640 250"
                         id="gradient_curve_three">
                         <defs>
@@ -414,48 +489,46 @@
                                 d="M640 0L0 0 0 195.3C0.3 194.8 0.6 194.4 0.8 194.1 8.4 183.5 30.3 173.3 66.7 163.7 165.4 144.7 267.8 154.6 374 193.4 480.2 232.1 568.8 221 640 159.9L640 0Z"
                                 id="a3IGiw5bol" />
                         </defs>
-                        <!-- M0 0L640 0 640 195.3C639.7 194.8 639.4 194.4 639.2 194.1 631.6 183.5 609.7 173.3 573.4 163.7 474.6 144.7 372.2 154.6 266 193.4 159.9 232.1 71.2 221 0 159.9L0 0Z -->
                         <use xlink:href="#a3IGiw5bol" fill="var(--gradient-color-two)" />
                     </svg>
 
                 </div>
 
-                <!-- <div id="image_wrapper">
-
-                    <img src="./images/Small_Image.png" alt="Insert Picture Of Me">
-                    <div id="image_backdrop"></div>
-
-                </div> -->
-
                 <div id="bio_text_wrapper">
 
                     <h2 class="lines_header">Bio</h2>
 
-                    <p>Hi there! My name is Jack Watson a third-year Game Development student at RIT. I am looking for a 2021 summer internship in the web, software, and game development fields. I am currently working as a Full Stack Developer in Western New York. Feel free to take a look around my portfolio!</p>
+                    <p>Hi there! My name is Jack Watson a third-year Game Development student at RIT. I am looking for a 2021 summer internship in the web, game, and software development fields. I am currently working as a Full Stack Developer in Western New York. Feel free to take a look around my portfolio!</p>
 
                 </div>
 
             </div>
 
 
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 38" >
-                    <defs>
-                        <path
-                            d="m0,18c12,12,31,20,50,20c19,0,38,-7.600006103515625,50,-20l0,-18.000000000000057l-100,0l0,18.000000000000057"
-                            id="g2kfV7dS7" />
-                    </defs>
-                    <use xlink:href="#g2kfV7dS7" fill="var(--gradient-color-one)" />
-                </svg> -->
-
-
             <div id="floating_wrapper">
 
 
                 <!-- Use a modal box! -->
+                <div id="project_seven" class="project">
+
+                    <div class="image_wrapper">
+                        <img src="./images/audio_visualizer/pic_one.png" alt="Audio Visualizer Picture" style="object-position: 0 40%;">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">Audio Visualizer</h3>
+                        <p>Javascript computer vision audio visualizer</p>
+
+                    </div>
+
+                </div>
+
                 <div id="project_six" class="project">
 
                     <div class="image_wrapper">
-                        <img src="./images/CREDIT.png" alt="CREDIT Picture">
+                        <img src="./images/credit/pic_one.png" alt="CREDIT Picture">
                     </div>
 
 
@@ -468,10 +541,43 @@
 
                 </div>
 
+                <div id="project_four" class="project">
+
+
+                    <div class="image_wrapper">
+                        <img src="./images/pricetool/pic_one.png" alt="Tech Image" style="object-position: 0 72%;">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">Pricetool</h3>
+                        <p>Web based product management application</p>
+
+                    </div>
+
+                </div>
+
+                <div id="project_eight" class="project">
+
+                    <div class="image_wrapper">
+                        <img src="./images/natural_selection/pic_one.png" alt="Evolution Simulator Picture" style="object-position: 0 5%;">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">Evolution Simulator</h3>
+                        <p>Javascript based Q-learning simulation</p>
+
+                    </div>
+
+                </div>
+
                 <div id="project_one" class="project">
 
                     <div class="image_wrapper">
-                        <img src="./images/Artifact.png" alt="Artifact Picture">
+                        <img src="./images/artifact/pic_eight.png" alt="Artifact Picture">
                     </div>
 
 
@@ -479,24 +585,6 @@
 
                         <h3 class="lines_header">Artifact</h3>
                         <p>Java based 2D platformer</p>
-
-                    </div>
-
-                </div>
-
-
-                <div id="project_two" class="project">
-
-                    <div class="image_wrapper">
-                        <img src="./images/cave_game/pic_one.png" alt="Cave Game Picture"
-                            style="object-position: 0 72%;">
-                    </div>
-
-
-                    <div class="project_text_wrapper">
-
-                        <h3 class="lines_header">Cave Game</h3>
-                        <p>Procedurally generated 2D platformer</p>
 
                     </div>
 
@@ -520,18 +608,18 @@
 
                 </div>
 
-                <div id="project_four" class="project">
-
+                <div id="project_two" class="project">
 
                     <div class="image_wrapper">
-                        <img src="./images/pricetool/pic_one.png" alt="Tech Image" style="object-position: 0 72%;">
+                        <img src="./images/cave_game/pic_one.png" alt="Cave Game Picture"
+                            style="object-position: 0 72%;">
                     </div>
 
 
                     <div class="project_text_wrapper">
 
-                        <h3 class="lines_header">Pricetool</h3>
-                        <p>Web based product management application</p>
+                        <h3 class="lines_header">Cave Game</h3>
+                        <p>Procedurally generated 2D platformer</p>
 
                     </div>
 
@@ -556,7 +644,6 @@
 
             </div>
 
-
         </main>
 
 
@@ -570,7 +657,6 @@
             </div>
 
             <p>watson.jack.p@gmail.com</p>
-
 
         </footer>
 

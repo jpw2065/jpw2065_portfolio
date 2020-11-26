@@ -30,6 +30,8 @@ class ImageCarnival{
     increment(n){
 
         let pictures = document.querySelectorAll("#" + this.id + " .project_pics");
+
+        console.log("#" + this.id + " .project_pics");
     
         for(let i = 0; i < pictures.length; i++){
             pictures[i].style.display = "none";
@@ -83,7 +85,7 @@ class ImageCarnival{
 
 }
 
-let project_id_list = ["project_text_one", "project_text_two", "project_text_three", "project_text_four", "project_text_five", "project_text_six"];
+let project_id_list = ["project_text_one", "project_text_two", "project_text_three", "project_text_four", "project_text_five", "project_text_six", "project_text_seven", "project_text_eight"];
 let image_carnival_list = [];
 let carnival_index = 0;
 
@@ -118,6 +120,18 @@ function clickSix(){
     openProject(project_id_list[5]);
 }
 
+function clickSeven(){
+    carnival_index = 3;
+    image_carnival_list[carnival_index].setTimeout;
+    openProject(project_id_list[6]);
+}
+
+function clickEight(){
+    carnival_index = 4;
+    image_carnival_list[carnival_index].setTimeout;
+    openProject(project_id_list[7]);
+}
+
 // Opening and Closing the Modal Box
 function openProject(project_id){
 
@@ -141,11 +155,7 @@ function setProjectText(project_id){
 
     makeAllNone();
 
-    if(project_id == "project_text_four"){
-        document.querySelector("#" + project_id).className = "project_text display_grid_two";
-    }else{
-        document.querySelector("#" + project_id).className = "project_text display_grid";
-    }
+    document.querySelector("#" + project_id).classList.remove("display_none");
 
 }
 
@@ -155,7 +165,7 @@ function makeAllNone(){
 
         let current_project_text = document.querySelector("#" + project_id_list[i]);
 
-        current_project_text.className = "project_text display_none";
+        current_project_text.classList.add("display_none");
 
     }
 
@@ -215,6 +225,8 @@ function onWindowLoad(){
     let project_four = document.querySelector("#project_four");
     let project_five = document.querySelector("#project_five");
     let project_six = document.querySelector("#project_six");
+    let project_seven = document.querySelector("#project_seven");
+    let project_eight = document.querySelector("#project_eight");
     let close_project_button = document.querySelector(".close_project");
     
 
@@ -224,13 +236,11 @@ function onWindowLoad(){
     project_four.onclick = clickFour;
     project_five.onclick = clickFive;
     project_six.onclick = clickSix;
+    project_seven.onclick = clickSeven;
+    project_eight.onclick = clickEight;
     close_project_button.onclick = closeProject;
 
-    image_carnival_list = [new ImageCarnival("image_carnival_one"), new ImageCarnival("image_carnival_two"), new ImageCarnival("image_carnival_three")];
-
-    // let pictures = document.querySelectorAll(".project_pics");
-    // pictures[0].style.display = "block";
-
+    image_carnival_list = [new ImageCarnival("image_carnival_one"), new ImageCarnival("image_carnival_two"), new ImageCarnival("image_carnival_three"), new ImageCarnival("image_carnival_four"), new ImageCarnival("image_carnival_five")];
 
 }
 

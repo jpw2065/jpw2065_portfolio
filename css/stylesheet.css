@@ -1,6 +1,5 @@
 body, html{
 
-
     margin: 0;
     padding: 0;
 
@@ -17,9 +16,11 @@ a {
     text-decoration: none;
 }
 
+
 svg text {
     font-family: FontAwesome;
- }
+}
+
 
 body.project_open{
 
@@ -29,17 +30,23 @@ body.project_open{
 
 }
 
-/* .no_scroll{
+body::-webkit-scrollbar {
+    width: 17px;
+  }
+   
+body::-webkit-scrollbar-track {
+    background-color: var(--primary-color);
+}
 
-    overflow: hidden;
-
-} */
+body::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+}
 
 .display_grid{
 
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 43% 30% 5% 12%;
+    grid-template-rows: max-content 1fr 1fr 7% 9%;
 
 }
 
@@ -47,20 +54,9 @@ body.project_open{
 
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: max-content 1fr;
 
 }
-
-
-/* .display_flex{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    
-
-} */
 
 .display_none{
 
@@ -122,6 +118,25 @@ body.project_open{
     transition: width 0.2s ease-in-out;
 
     background-image: linear-gradient(to right, var(--heading-color) 50%, rgba(0,0,0,0) 100%);
+}
+
+.timeline_span{
+
+
+    font-size: 0.8em;
+
+}
+
+.project_header_wrapper{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.project_header_wrapper .lines_header{
+    
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .project_box{
@@ -225,10 +240,11 @@ body.project_open{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     position: relative;
+
+    padding-top: 1em;
 
 }
 
@@ -341,32 +357,47 @@ h3{
 
 .project_text .p_wrapper{
 
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-
     margin-left: 3vw;
     margin-right: 3vw;
     margin-top: 3vh;
 
+    overflow-y: auto;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+.project_text .p_wrapper a{
+
+    color: var(--heading-color);
+    text-decoration: underline;
+
+}
+
+.project_text .p_wrapper::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+.project_text .p_wrapper::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.project_text .p_wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
 }
 
 
 .project_box p{
 
 
-    text-align: center;
+    text-align: left;
     
     font-size: 1.0em;
 
     margin: 0;
 
 }
-
-/* .project_box h3{
-
-
-} */
 
 .download_links{
 
@@ -389,9 +420,6 @@ h3{
 
     transform: scale(1.5);
 }
-
-
-/* 2.2em + 8vh + 10em + 10em + 30em */
 
 #body_wrapper {
     display: grid;
@@ -468,9 +496,6 @@ nav:hover{
 #title{
 
     background-color: var(--primary-color);
-/* 
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px; */
 
     grid-area: header;
 
@@ -482,9 +507,6 @@ nav:hover{
 
 #title h1{
 
-    /* font-family: 'Nova Mono', monospace; */
-    /* font-family: 'Bowlby One', cursive; */
-    /* font-family: 'Changa One', cursive; */
     font-family: 'Roboto Condensed', sans-serif;
     margin-left: 11vw;
     line-height: 0.9;
@@ -498,7 +520,6 @@ nav:hover{
     z-index: 6;
     left: 70%;
     top: 52%;
-    /* width: calc(50vh + 7vw); */
 
     width: 45em;
     max-width: 100vw;
@@ -631,25 +652,11 @@ main{
     margin: 0;
     padding: 0;
 
-    /* padding-top: 10px; */
-
     color: var(--text-color);
     background-color: var(--gradient-color-two);
 
     text-align: initial;
 }
-
-/* #bio_wrapper{
-
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center;
-
-} */
 
 #image_wrapper{
 
@@ -694,7 +701,6 @@ main{
 
 } 
 
-
 #bio_text_wrapper{
 
     display: inline-block;
@@ -703,16 +709,6 @@ main{
 
     text-align: center;
 }
-
-/* #bio_text_wrapper{
-
-    display: inline-block;
-    margin-left: 32vw;
-    width: 30%;
-
-    text-align: center;
-    vertical-align: middle;
-} */
 
 #bio_text_wrapper p{
 
@@ -725,24 +721,6 @@ main{
     margin-bottom: 2%;
 
 }
-
-/* #project_title_wrapper{
-
-    position: absolute;
-    
-    width: 33vw;
-    height: 40vh;
-
-    left: 33%;
-
-    transform: translateX(-50%);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    
-
-} */
 
 #project_title{
 

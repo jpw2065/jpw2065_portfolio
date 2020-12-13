@@ -85,7 +85,7 @@ class ImageCarnival{
 
 }
 
-let project_id_list = ["project_text_one", "project_text_two", "project_text_three", "project_text_four", "project_text_five", "project_text_six", "project_text_seven", "project_text_eight"];
+let project_id_list = ["project_text_one", "project_text_two", "project_text_three", "project_text_four", "project_text_five", "project_text_six", "project_text_seven", "project_text_eight", "project_text_nine"];
 let image_carnival_list = [];
 let carnival_index = 0;
 
@@ -130,6 +130,12 @@ function clickEight(){
     carnival_index = 4;
     image_carnival_list[carnival_index].setTimeout;
     openProject(project_id_list[7]);
+}
+
+function clickNine(){
+    carnival_index = 5;
+    image_carnival_list[carnival_index].setTimeout;
+    openProject(project_id_list[8]);
 }
 
 // Opening and Closing the Modal Box
@@ -227,6 +233,7 @@ function onWindowLoad(){
     let project_six = document.querySelector("#project_six");
     let project_seven = document.querySelector("#project_seven");
     let project_eight = document.querySelector("#project_eight");
+    let project_nine = document.querySelector("#project_nine");
     let close_project_button = document.querySelector(".close_project");
     
 
@@ -238,9 +245,15 @@ function onWindowLoad(){
     project_six.onclick = clickSix;
     project_seven.onclick = clickSeven;
     project_eight.onclick = clickEight;
+    project_nine.onclick = clickNine;
     close_project_button.onclick = closeProject;
 
-    image_carnival_list = [new ImageCarnival("image_carnival_one"), new ImageCarnival("image_carnival_two"), new ImageCarnival("image_carnival_three"), new ImageCarnival("image_carnival_four"), new ImageCarnival("image_carnival_five")];
+    image_carnival_list = [new ImageCarnival("image_carnival_one"), 
+                            new ImageCarnival("image_carnival_two"), 
+                            new ImageCarnival("image_carnival_three"), 
+                            new ImageCarnival("image_carnival_four"), 
+                            new ImageCarnival("image_carnival_five"), 
+                            new ImageCarnival("image_carnival_six")];
 
 }
 

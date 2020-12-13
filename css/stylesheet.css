@@ -801,6 +801,12 @@ main{
 
 }
 
+.img_border{
+    border: solid;
+    box-sizing: border-box;
+    border-color: var(--gradient-color-two);
+}
+
 .project_text_wrapper{
 
     width: 60%;
